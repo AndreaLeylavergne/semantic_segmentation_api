@@ -2,10 +2,13 @@ from fastapi import FastAPI, File, UploadFile
 from fastapi.responses import JSONResponse
 import numpy as np
 from PIL import Image
+
+"""
 import io
 import base64
 from keras_segmentation.models.unet import vgg_unet
-from keras_segmentation.predict import predict 
+from keras_segmentation.predict import predict
+"""
 
 """
 # Charger le modèle avec la configuration spécifique
