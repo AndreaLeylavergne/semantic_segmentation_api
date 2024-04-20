@@ -41,7 +41,7 @@ async def predict_mask(file: UploadFile = File(...)):
 @app.get("/")
 def root():
     """Retourne un message de bienvenue."""
-    return {"Greeting":  "Hello, World!"}
+    return {"Message":  "Hello, World!"}
 
 # Exécuter l'application FastAPI sur le port 8000
 
