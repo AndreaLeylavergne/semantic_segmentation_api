@@ -1,9 +1,8 @@
 h5py
-tqdm
-keras>=2.3.0
+#tqdm
+#keras>=2.3.0
 tensorflow>=2.2
-opencv-python
-tqdm
+#opencv-python
 imageio>=2.5.0
 imgaug==0.2.9
 fastapi==0.110.1
