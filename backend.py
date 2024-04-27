@@ -6,12 +6,11 @@ import io
 import base64
 from keras_segmentation.models.unet import vgg_unet
 from keras_segmentation.predict import predict
-"""
+
 # Charger le modèle avec la configuration spécifique
 model = vgg_unet(n_classes=8, input_height=128, input_width=256)  
 model.load_weights("Checkpoints/vgg_unet/final_weights50.weights.h5")
 print("Modèle chargé")
-"""
 
 # Créer l'application FastAPI
 app = FastAPI()
