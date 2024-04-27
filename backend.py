@@ -2,14 +2,10 @@ from fastapi import FastAPI, File, UploadFile
 from fastapi.responses import JSONResponse
 import numpy as np
 from PIL import Image
-
-"""
 import io
 import base64
 from keras_segmentation.models.unet import vgg_unet
 from keras_segmentation.predict import predict
-"""
-
 """
 # Charger le modèle avec la configuration spécifique
 model = vgg_unet(n_classes=8, input_height=128, input_width=256)  
@@ -20,7 +16,7 @@ print("Modèle chargé")
 # Créer l'application FastAPI
 app = FastAPI()
 
-""""
+"""
 @app.post("/predict/")
 async def predict_mask(file: UploadFile = File(...)):
     #Lire l'image reçue
