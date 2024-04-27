@@ -16,7 +16,7 @@ print("Modèle chargé")
 # Créer l'application FastAPI
 app = FastAPI()
 
-"""
+
 @app.post("/predict/")
 async def predict_mask(file: UploadFile = File(...)):
     #Lire l'image reçue
@@ -35,7 +35,7 @@ async def predict_mask(file: UploadFile = File(...)):
 
     data_url = base64.b64encode(mask_stream.read()).decode('utf8')
     return JSONResponse(content={"mask": "data:image/png;base64," + data_url})
-"""
+
 
 @app.get("/")
 def root():
