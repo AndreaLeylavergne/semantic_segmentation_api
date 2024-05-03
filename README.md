@@ -10,7 +10,7 @@
 
 Implementation of various Deep Image Segmentation models in keras.
 
-### News : Some functionality of this repository has been integrated with https://liner.ai . Check it out!! 
+### News : Some functionality of this repository has been integrated with https://liner.ai . Check it out! 
 
 
 
@@ -70,21 +70,6 @@ Input Image            |  Output Segmentation Image
 :-------------------------:|:-------------------------:
 ![](sample_images/1_input.jpg)  |  ![](sample_images/1_output.png)
 ![](sample_images/3_input.jpg)  |  ![](sample_images/3_output.png)
-
-
-## How to cite
-
-If you are using this library, please cite using:
-
-```
-@article{gupta2023image,
-  title={Image segmentation keras: Implementation of segnet, fcn, unet, pspnet and other models in keras},
-  author={Gupta, Divam},
-  journal={arXiv preprint arXiv:2307.13215},
-  year={2023}
-}
-
-```
 
 
 ## Getting Started
