@@ -7,4 +7,4 @@ imageio>=2.5.0
 uvicorn==0.29.0
 gunicorn==22.0.0
 fastapi
-tqdm
+tqdm==4.66.2
