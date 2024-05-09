@@ -3,7 +3,7 @@ from types import MethodType
 from keras.models import *
 from keras.layers import *
 import keras.backend as K
-from tqdm import tqdm
+#from tqdm import tqdm
 
 from .config import IMAGE_ORDERING
 from ..train import train
@@ -18,7 +18,7 @@ def transfer_weights(m1, m2, verbose=True):
 
     nSet = 0
     nNotSet = 0
-
+"""
     if verbose:
         print("Copying weights ")
         bar = tqdm(zip(m1.layers, m2.layers))
@@ -38,7 +38,7 @@ def transfer_weights(m1, m2, verbose=True):
     if verbose:
         print("Copied weights of %d layers and skipped %d layers" %
               (nSet, nNotSet))
-
+"""
 
 def resize_image(inp,  s, data_format):
 
